@@ -1,0 +1,11 @@
+{
+	"ports": {
+		"production": 5001,
+		"development": 3001
+	},
+	"use_auth0": false,
+	"auth0_audience": "https://jotmaster.auth0.com/api/v2/",
+	"auth0_issuer": "https://jotmaster.auth0.com/",
+	"auth0_keys": "https://jotmaster.auth0.com/.well-known/jwks.json",
+	"supported_img_mimetype": ["image/jpeg", "image/png"]
+}
